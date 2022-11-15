@@ -6,7 +6,7 @@
     font-weight: 700;
     text-align: center;
 }
-.experience_cards_container{
+.container-fluid{
     display:flex;
     align-items:center;
     justify-content: center;

@@ -7,7 +7,7 @@ import linkedin from '../../images/linkedin.png'
 function Homepage() {
 
     return (
-        <div className="homepage_container">
+        <div className="container-fluid">
             <div className="homepage_left">
                 <p className="homepage_left_h1"><span className="red_color">Hi,</span> my name is</p>
                 <p className="homepage_left_h2">Harsh Tripathi</p>

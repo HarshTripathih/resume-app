@@ -3,7 +3,7 @@
     font-weight:700;
     text-align: center;
 }
-.project_box_container{
+.container-fluid{
    
     display: flex;
     justify-content: center;

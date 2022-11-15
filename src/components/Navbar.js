@@ -7,13 +7,13 @@ function Navbar() {
 
 
     return (
-        <div className="navbar_container">
+        <div className="navbar_container fixed-top">
             <div className="navbar_left">{name}</div>
             <div className="navbar_right">
 
                 <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
                     <div className="container-fluid">
-
+                    <a class="navbar-brand navbar-danger" href="#">{name}</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>

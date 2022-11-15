@@ -58,7 +58,7 @@ export default function Experience(){
     return (
         <div className="experience_container">
             <p className="experience_title">Experience</p>
-            <div className="experience_cards_container">
+            <div className="container-fluid">
                 <ExperienceCard 
                     companyName="CodingExpo pvt Ltd"
                     Designation="Front-End Developer"
