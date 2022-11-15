@@ -1,16 +1,18 @@
 .navbar_container{
-    background-color:black;
+    background-color:whitesmoke;
+    border-radius: 5px;;
     color:whitesmoke;
     display:flex;
     align-items:center;
     justify-content:space-between;
 }
 .navbar_left{
-    font-size:26px;
+    font-size:40px;
     font-weight:700;
     color:red;
 }
 .navbar_right{
+    font-size:22px;
     display:flex;
 }
 .navbar_right > p{
@@ -24,3 +26,5 @@
     cursor:pointer;
     border-radius:8px;
 }
+
+  

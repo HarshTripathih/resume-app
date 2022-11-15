@@ -6,6 +6,12 @@ import css from "../../images/css.svg";
 import bootstrap from "../../images/bootstrap.svg";
 import firebase from "../../images/firebase.png";
 import html from "../../images/html.svg";
+import react from "../../images/react.svg";
+import dj from "../../images/dj.png";
+import dbms from "../../images/dbms.jpg";
+import msq from "../../images/msq.png";
+import mongodb from "../../images/mongodb.png";
+import express from "../../images/express.png";
 import TechStackIconContainer from "./TechStackIconContainer/TechStackIconContainer";
 
 export default function TechStack() {
@@ -13,7 +19,7 @@ export default function TechStack() {
     {
       iconName: "C",
       iconImage: c,
-      iconAltProperty: "reactImage",
+      iconAltProperty: "cImage",
     },
     {
       iconName: "Javascript",
@@ -26,9 +32,9 @@ export default function TechStack() {
       iconAltProperty: "cssImage",
     },
     {
-      iconName: "CSS",
-      iconImage: css,
-      iconAltProperty: "cssImage",
+      iconName: "React",
+      iconImage: react,
+      iconAltProperty: "ReactImage",
     },
   ];
   const techstackData2 = [
@@ -48,9 +54,31 @@ export default function TechStack() {
       iconAltProperty: "firebaseImage",
     },
     {
-      iconName: "Firebase",
-      iconImage: firebase,
-      iconAltProperty: "firebaseImage",
+      iconName: "Django",
+      iconImage: dj,
+      iconAltProperty: "django Image",
+    },
+  ];
+  const techstackData3 = [
+    {
+      iconName: "DBMS",
+      iconImage: dbms,
+      iconAltProperty: "dbmsImage",
+    },
+    {
+      iconName: "SQL",
+      iconImage: msq,
+      iconAltProperty: "mysqlImage",
+    },
+    {
+      iconName: "Mongo-DB",
+      iconImage: mongodb,
+      iconAltProperty: "MongodbImage",
+    },
+    {
+      iconName: "Express",
+      iconImage: express,
+      iconAltProperty: "Express Image",
     },
   ];
   return (
@@ -69,6 +97,17 @@ export default function TechStack() {
       </div>
       <div className="techstack_icon_container">
         {techstackData2.map((item, index) => {
+          return (
+            <TechStackIconContainer
+              image={item.iconImage}
+              altProperty={item.iconAltProperty}
+              name={item.iconName}
+            />
+          );
+        })}
+      </div>
+      <div className="techstack_icon_container">
+        {techstackData3.map((item, index) => {
           return (
             <TechStackIconContainer
               image={item.iconImage}
