@@ -1,15 +1,17 @@
 .project_box_container{
     width:400px;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 100px;
     border: 1px solid blue;
     box-shadow:-8px 8px 8px 0px lightslategray;
     
 }
 
 
-.project_box_image_container > img{
+.project_box_image_container > a > img{
     width: 400px;
+    cursor: pointer;
 }
 .project_box_description_container{
     padding: 0 10px;

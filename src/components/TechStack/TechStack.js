@@ -17,7 +17,7 @@ import TechStackIconContainer from "./TechStackIconContainer/TechStackIconContai
 export default function TechStack() {
   const techstackData = [
     {
-      iconName: "C",
+      iconName: "C++",
       iconImage: c,
       iconAltProperty: "cImage",
     },

@@ -17,7 +17,7 @@
 .homepage_right{
     flex:0.5;
     margin-top: 100px;
-    border: 1px solid red;
+    border: 2px solid blueviolet;
     box-shadow:-8px 12px 12px 0px lightslategray;
 }
 .homepage_right > img{
