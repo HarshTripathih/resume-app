@@ -37,3 +37,27 @@
     padding-bottom:20px;
     
 }
+
+@media (max-width: 390px) {
+    .ex_card_container {
+        width: 100%;
+        padding: 14px 14px;
+        background-color: #181818;
+        box-shadow: -8px 8px 8px 0px lightslategrey;
+        margin: 0 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 1px solid blue;
+    }
+}
+@media (max-width: 375px) {
+    .ex_card_container {
+        padding: 14px 14px;
+        background-color: #181818;
+        box-shadow: -8px 8px 8px 0px lightslategrey;
+        margin: 0 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 1px solid blue;
+    }
+}

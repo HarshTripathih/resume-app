@@ -7,9 +7,17 @@
     font-weight: 700;
     text-align: center;
 }
-.container-fluid{
+.container-experiences{
     display:flex;
     align-items:center;
     justify-content: center;
     flex-wrap:wrap;
+}
+@media (max-width: 500px) {
+    .container-experiences{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
 }
