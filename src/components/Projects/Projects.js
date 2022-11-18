@@ -108,7 +108,7 @@ export default function Projects(){
     ];
 
     return (
-        <div>
+        <div id="Projects">
             <p className="project_title">Projects</p>
             <div className="container-fluid">
                 {projectData.map((value, index)=>(
