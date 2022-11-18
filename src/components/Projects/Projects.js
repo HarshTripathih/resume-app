@@ -45,7 +45,7 @@ export default function Projects(){
                'Scientific calculators are used widely in situations that require quick access to certain mathematical functions.',
                'They are very often required for math classes from the junior high school level through college.',
                'The capabilities of a modern scientific calculator include: addition, substraction, Multiplication, Division, SquareRoot, Square, Base ',
-               'Scientific calculators perform the same functions as their standard electronic calculator counterparts.'
+               'Scientific calculators perform the same functions as their standard electronic calculator counterparts Scientific calculators perform the same functions as their standard electronic calculator counterparts.'
             ],
             link: "https://harshtripathih.github.io/Scientific-Calculator/",
         },

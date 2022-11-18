@@ -22,18 +22,16 @@ function App() {
 
 
     <div className="app">
-
-
+      <Navbar />
       <Router>
-        <Navbar />
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route path="/techstack" element={<TechStack />} />
           <Route path="/experiences" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
-        </Routes>
-        <Footer />
+        </Routes>      
       </Router>
+      <Footer />
     </div>
 
 
