@@ -34,3 +34,22 @@
     height:60px;
     border-radius:50%;
 }
+@media (max-width: 414px) {
+.image-circle img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 136px;
+}
+.homepage_left_description {
+    font-size: 15px;
+    width: 200%;
+}
+.homepage_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+}
