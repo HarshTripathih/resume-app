@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import Contactus from './components/Contactus/Contactus';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+
 // Port folio website
 // 1.Navbar
 // 2.Homepage
@@ -19,6 +20,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
 function App() {
+
   return (
 
 

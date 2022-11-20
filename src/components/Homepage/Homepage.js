@@ -14,8 +14,7 @@ function Homepage() {
                 <p className="homepage_left_h3">Stuedent of <span className="red_color">Btech(CSE)</span>{" "}
                 </p>
                 <p className="homepage_left_description"><p className="pred_color">Currently,</p>I have opted Btech(CSE) at Lovely Professional University.{" "}<br/>
-                    <span><span className="red_color">A full stack – developer,</span> specializing in Web-App development. Experienced with all stages of development cycle for web project. well-versed in numerous programming languages including C, java script, html, SQL Server , flutter, unity development ,Web Deevelopment(HTML,CSS,JAVA SCRIPT),Laravel and good in database and algorithm ,worked in Artificial Intelligence project such as AI based writing machine.
-                    </span>
+                    <span><span className="red_color">A full stack – developer,</span> specializing in Web-App development. Experienced with all stages of development cycle for web project. well-versed in numerous programming languages including C, cjava script, html, SQL Server , flutter, unity development ,Web Deevelopment(HTML, CSS, JAVA SCRIPT, Jquery, React, NodeJs, Express, Mongo-DB),Laravel and good in database and algorithm.</span>
                 </p>
                 <div>
                     <a href="https://github.com/HarshTripathih" target="_blank">
