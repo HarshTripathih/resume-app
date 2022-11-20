@@ -7,7 +7,7 @@ import linkedin from '../../images/linkedin.png'
 function Homepage() {
 
     return (
-        <div className="container-fluid">
+        <div className="homepage_container">
             <div className="homepage_left">
                 <p className="homepage_left_h1"><span className="red_color">Hi,</span> my name is</p>
                 <p className="homepage_left_h2">Harsh Tripathi</p>
@@ -25,8 +25,9 @@ function Homepage() {
                         <img src={linkedin} alt="linkedinimage" className="homepage_logo" />
                     </a>
                 </div>
-                <a href="mailto:harshtripathih321@gmail.com"></a>
+                <a href="mailto:harshtripathih321@gmail.com">
                 <button className="homepage_left_button">Get in Touch</button>
+                </a>
             </div>
             <div className="homepage_right">
                 <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="GIF" />

@@ -1,71 +1,101 @@
-
-.homepage_container{
-    display:flex;
+.homepage_container {
+    display: flex;
     align-items: center;
-    height:90vh;
+    margin-bottom: 100px;
     flex-wrap: wrap;
-    
+
 }
 
-.homepage_left{
-    flex:0.4;
+.homepage_left {
+    flex: 0.6;
     padding-right: 30px;
     margin-top: 120px;
-    margin-bottom: 50px;
-    margin-right:80px;
-
+    margin-right: 80px;
 }
-.homepage_right{
-    flex:0.4;
+
+.homepage_right {
+    flex: 0.4;
     margin-top: 100px;
     margin-bottom: 50px;
     border: 2px solid blueviolet;
-    box-shadow:-8px 12px 12px 0px lightslategray;
+    box-shadow: -8px 12px 12px 0px lightslategray;
 }
-.homepage_right > img{
-    width:100%;
+
+.homepage_right>img {
+    width: 100%;
 }
-.red_color{
-    color:red;
-    
+
+.red_color {
+    color: red;
+
 }
-.pred_color{
-    color:red;
+
+.pred_color {
+    color: red;
     font-size: 25px;
 }
-.homepage_left_h1{
-    font-size:25px;
-    
+
+.homepage_left_h1 {
+    font-size: 25px;
+
 }
-.homepage_left_h1 .red_color{
+
+.homepage_left_h1 .red_color {
     font-size: 40px;
 }
-.homepage_left_h2{
-    font-size:48px;
-    font-weight:700;
-    margin:-15px 0;
+
+.homepage_left_h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: -15px 0;
 }
-.homepage_left_h3{
-    font-size:30px;
+
+.homepage_left_h3 {
+    font-size: 30px;
 }
-.homepage_left_description{
+
+.homepage_left_description {
     font-size: 15px;
 }
-.homepage_logo{
-    width: 60px;
-}
-.homepage_left_button{
-    margin-top:25px;
-    font-size:20px;
+
+
+.homepage_left_button {
+    margin-top: 25px;
+    font-size: 20px;
     padding: 8px 10px;
-    border:2px solid red;
-    background-color:black;
-    box-shadow:3px 3px white;
-    color:red;
+    border: 2px solid red;
+    background-color: black;
+    box-shadow: 3px 3px white;
+    color: red;
     cursor: pointer;
 }
-.homepage_left_button:hover{
-    border:2px solid blueviolet;
-    color:white;
-    box-shadow:8px 8px 8px -8px lightslategray;
+
+.homepage_left_button:hover {
+    border: 2px solid blueviolet;
+    color: white;
+    box-shadow: 8px 8px 8px -8px lightslategray;
+}
+
+@media (max-width: 414px) {
+    .homepage_container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+    
+    }
+    .homepage_left {
+        flex: 0.6;
+        padding-right: 30px;
+        margin-top: 120px;
+        margin-right: 80px;
+    }
+    
+    .homepage_right {
+        flex: 0.4;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        border: 2px solid blueviolet;
+        box-shadow: -8px 12px 12px 0px lightslategray;
+    }
 }

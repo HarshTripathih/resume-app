@@ -22,6 +22,9 @@ function Navbar() {
                             <li className="nav-item">
                                 <a className="nav-link active text-danger" aria-current="page"  href="/">About</a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-black" aria-current="page"  href="/contactus">ContactUs</a>
+                            </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     ExploreMore
