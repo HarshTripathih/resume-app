@@ -16,7 +16,7 @@ function Navbar() {
                 <div className="container-fluid">
                     <a className="fs-1 navbar-brand text-danger" href="#">{name}</a>
                     <div className="image-circle">
-                        <img src={harsh} alt=" "/>
+                        <img src={harsh} alt=" " />
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
