@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import PropTypes from 'prop-types';
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 

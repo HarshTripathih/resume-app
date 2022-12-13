@@ -1,33 +1,3 @@
-/* .navbar_container{
-    background-color:whitesmoke;
-    color:whitesmoke;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-.navbar_left{
-    font-size:40px;
-    font-weight:700;
-    color:red;
-}
-.navbar_right{
-    font-size:22px;
-    display:flex;
-}
-.navbar_right > p{
-    margin-left:10px;
-    margin-right:70px;
-    padding:8px 10px;
-    font-size:18px;
-}
-.navbar_right > p:hover{
-    background-color:grey;
-    cursor:pointer;
-    border-radius:8px;
-}
-
-   */
-
 .image-circle img{
     
     width: 60px;
