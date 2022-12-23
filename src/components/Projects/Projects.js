@@ -120,8 +120,8 @@ export default function Projects(){
             sentences: [
                'Automated Heart using Html,Css, Java script.'
             ],
-            Livelink: "https://github.com/HarshTripathih/html_css_js-fun.git",
-            gitlink:"https://github.com/HarshTripathih/html_css_js-fun.git",
+            Livelink: "https://harshtripathih.github.io/Heart/",
+            gitlink:"https://github.com/HarshTripathih/Heart.git",
         },
     ];
 
