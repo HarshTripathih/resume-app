@@ -26,7 +26,8 @@ export default function Projects(){
                'These tools help monitor, assess and control employees working hours and efficiently utilise human resources. ',
                'This makes it easier for the managers to store and access relevant data when needed. ',
             ],
-            link: "https://github.com/HarshTripathih/EMS-SYSTEM.git",
+            Livelink: "https://github.com/HarshTripathih/EMS-SYSTEM.git",
+            gitlink:"https://github.com/HarshTripathih/EMS-SYSTEM.git",
         },
         {
             image: cocomo,
@@ -37,7 +38,8 @@ export default function Projects(){
                'Plugin allows calculation of Basic COCOMO (Constructive Cost Model) estimates.',
                'Amount of labor that will be required to complete a task. It is measured in person-months units.'
             ],
-            link: "https://harshtripathih.github.io/COCOMO_CALCULATOR/",
+            Livelink: "https://harshtripathih.github.io/COCOMO_CALCULATOR/",
+            gitlink:"https://github.com/HarshTripathih/COCOMO_CALCULATOR.git",
         },
         {
             image: calculator,
@@ -48,7 +50,8 @@ export default function Projects(){
                'The capabilities of a modern scientific calculator include: addition, substraction, Multiplication, Division, SquareRoot, Square, Base ',
                'Scientific calculators perform the same functions as their standard electronic calculator counterparts Scientific calculators perform the same functions as their standard electronic calculator counterparts.'
             ],
-            link: "https://harshtripathih.github.io/Scientific-Calculator/",
+            Livelink: "https://harshtripathih.github.io/Scientific-Calculator/",
+            gitlink:"https://github.com/HarshTripathih/Scientific-Calculator.git",
         },
         {
             image: amazon,
@@ -60,7 +63,8 @@ export default function Projects(){
                'Amazon first launched its distribution network in 1997 with two fulfillment centers in Seattle and New Castle, Delaware.'
                
             ],
-            link: "https://harshtripathih.github.io/amazon-clone/",
+            Livelink: "https://harshtripathih.github.io/amazon-clone/",
+            gitlink:"https://github.com/HarshTripathih/amazon-clone.git",
         },
         {
             image: popup,
@@ -71,7 +75,8 @@ export default function Projects(){
                'It is used in different website in different ways.,',
                'Popup for is a type of form which worm when any site is load it will show automatically in time lap of few seconds and when user click on any part of it will unvisible.'
             ],
-            link: "https://harshtripathih.github.io/Popup-Form/",
+            Livelink: "https://harshtripathih.github.io/Popup-Form/",
+            gitlink:"https://github.com/HarshTripathih/Popup-Form.git",
         },
         {
             image: admin,
@@ -82,7 +87,8 @@ export default function Projects(){
                'It is mostly used in Ecommerce websites.',
                'you can add all details of product like, Price, offers, color, models, size, etc.'
             ],
-            link: "https://harshtripathih.github.io/Admin-pannel/",
+            Livelink: "https://harshtripathih.github.io/Admin-pannel/",
+            gitlink:"https://github.com/HarshTripathih/Admin-pannel.git",
         },
         {
             image: chat,
@@ -93,7 +99,8 @@ export default function Projects(){
                'Features like message reactions, stickers, emojis, GIFs, and voice calls and video chat',
                'These messaging and real-time chat applications play an important role in how the world interacts today.'
             ],
-            link: "https://harshtripathih.github.io/Chat-Application/",
+            Livelink: "https://harshtripathih.github.io/Chat-Application/",
+            gitlink:"https://github.com/HarshTripathih/Chat-Application.git",
         },
         {
             image: herbal,
@@ -104,7 +111,8 @@ export default function Projects(){
                'An Official Indian e-store for herbal, organic & ayurvedic cosmetic & beauty products for skincare, hair, bath & body.',
                ' An herb is a plant or plant part used for its scent, flavor, or therapeutic properties. Herbal medicines are one type of dietary supplement.'
             ],
-            link: "https://github.com/HarshTripathih/Herbal-Site.git",
+            Livelink: "https://github.com/HarshTripathih/Herbal-Site.git",
+            gitlink:"https://github.com/HarshTripathih/Herbal-Site.git",
         },
         {
             image: heart,
@@ -112,7 +120,8 @@ export default function Projects(){
             sentences: [
                'Automated Heart using Html,Css, Java script.'
             ],
-            link: "https://github.com/HarshTripathih/html_css_js-fun.git",
+            Livelink: "https://github.com/HarshTripathih/html_css_js-fun.git",
+            gitlink:"https://github.com/HarshTripathih/html_css_js-fun.git",
         },
     ];
 
@@ -125,7 +134,8 @@ export default function Projects(){
                         title={value.title}
                         image={value.image}
                         sentences={value.sentences}
-                        link={value.link}
+                        Livelink={value.Livelink}
+                        gitlink={value.gitlink}
                     />
                 ))}
             </div>

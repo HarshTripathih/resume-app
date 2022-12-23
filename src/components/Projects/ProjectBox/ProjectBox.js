@@ -1,11 +1,11 @@
 import React from "react";
 import "./ProjectBox.css";
 
-export default function ProjectBox({ image, title, sentences, link }) {
+export default function ProjectBox({ image, title, sentences, Livelink, gitlink }) {
     return (
         <div className="project_box_container">
             <div className="project_box_image_container">
-                <a href={link} target="_blank">
+                <a href={Livelink} target="_blank">
                     <img src={image} />
                 </a>
             </div>
@@ -16,9 +16,13 @@ export default function ProjectBox({ image, title, sentences, link }) {
                 ))}
                 </div>
                 <p className="project_box_link">
-                    <span> Link : </span>
-                    <a href={link} target="_blank">
-                        {link}
+                    <span> LiveLink : </span>
+                    <a href={Livelink} target="_blank">
+                        {Livelink}
+                    </a><br/>
+                    <span> GitLink : </span>
+                    <a href={gitlink} target="_blank">
+                        {gitlink}
                     </a>
                 </p>
             </div>
