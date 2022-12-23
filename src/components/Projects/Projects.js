@@ -9,6 +9,7 @@ import popup from "../../images/popup.jpg";
 import admin from "../../images/admin.jpg";
 import chat from "../../images/chat.jpg";
 import herbal from "../../images/herbal.jpg";
+import heart from "../../images/heart.png";
 
 
 export default function Projects(){
@@ -104,6 +105,14 @@ export default function Projects(){
                ' An herb is a plant or plant part used for its scent, flavor, or therapeutic properties. Herbal medicines are one type of dietary supplement.'
             ],
             link: "https://github.com/HarshTripathih/Herbal-Site.git",
+        },
+        {
+            image: heart,
+            title: 'Heart',
+            sentences: [
+               'Automated Heart using Html,Css, Java script.'
+            ],
+            link: "https://github.com/HarshTripathih/html_css_js-fun.git",
         },
     ];
 
