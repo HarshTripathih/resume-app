@@ -10,7 +10,7 @@ import admin from "../../images/admin.jpg";
 import chat from "../../images/chat.jpg";
 import herbal from "../../images/herbal.jpg";
 import heart from "../../images/heart.png";
-
+import mountain from "../../images/mountain.png";
 
 export default function Projects(){
 
@@ -122,6 +122,15 @@ export default function Projects(){
             ],
             Livelink: "https://harshtripathih.github.io/Heart/",
             gitlink:"https://github.com/HarshTripathih/Heart.git",
+        },
+        {
+            image: mountain,
+            title: 'Moving Mountain',
+            sentences: [
+               'Moving Mountain web page using Html,Css, JQuery.'
+            ],
+            Livelink: "https://harshtripathih.github.io/Mountain-page/",
+            gitlink:"https://github.com/HarshTripathih/Mountain-page.git",
         },
     ];
 
