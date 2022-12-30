@@ -11,10 +11,10 @@ function Homepage() {
             <div className="homepage_left">
                 <p className="homepage_left_h1"><span className="red_color">Hi,</span> my name is</p>
                 <p className="homepage_left_h2">Harsh Tripathi</p>
-                <p className="homepage_left_h3">Stuedent of <span className="red_color">Btech(CSE)</span>{" "}
+                <p className="homepage_left_h3">Student of <span className="red_color">Btech(CSE)</span>{" "}
                 </p>
                 <p className="homepage_left_description"><p className="pred_color">Currently,</p>I have opted Btech(CSE) at Lovely Professional University.{" "}<br/>
-                    <span><span className="red_color">A full stack – developer,</span> specializing in Web-App development. Experienced with all stages of development cycle for web project. well-versed in numerous programming languages including C, cjava script, html, SQL Server , flutter, unity development ,Web Deevelopment(HTML, CSS, JAVA SCRIPT, Jquery, React, NodeJs, Express, Mongo-DB),Laravel and good in database and algorithm.</span>
+                    <span><span className="red_color">A full stack - developer,</span> specializing in Web-App development. Experienced with all stages of development cycle for web project. well-versed in numerous programming languages including C, C++, java script, html, SQL Server , flutter, unity development ,Web Deevelopment(HTML, CSS, JAVA SCRIPT, Jquery, React, Angular, Django, NodeJs, Express, Mongo-DB),Laravel and good in database and algorithm.</span>
                 </p>
                 <div>
                     <a href="https://github.com/HarshTripathih" target="_blank">
@@ -26,6 +26,9 @@ function Homepage() {
                 </div>
                 <a href="mailto:harshtripathih321@gmail.com">
                 <button className="homepage_left_button">Get in Touch</button>
+                </a>
+                <a href="https://rzp.io/l/qd6DiDq">
+                <button className="homepage_Higherus_button">Higher Us</button>
                 </a>
             </div>
             <div className="homepage_right">

@@ -69,9 +69,25 @@
     color: red;
     cursor: pointer;
 }
+.homepage_Higherus_button{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 8px 10px;
+    border: 2px solid  blueviolet;
+    background-color: black;
+    box-shadow: 3px 3px white;
+    color:  blueviolet;
+    cursor: pointer;
+}
 
 .homepage_left_button:hover {
     border: 2px solid blueviolet;
+    color: white;
+    box-shadow: 8px 8px 8px -8px lightslategray;
+}
+.homepage_Higherus_button:hover{
+    border: 2px solid red;
     color: white;
     box-shadow: 8px 8px 8px -8px lightslategray;
 }

@@ -8,3 +8,7 @@ body{
     padding: 0 2%;
     background-color:black;
 }
+body::-webkit-scrollbar{   
+    display: none;
+    /* it is used to hide the scroll bar */
+}

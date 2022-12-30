@@ -121,12 +121,16 @@ const Contactus = () => {
                             <p>Jalandhar , Punjab, India</p>
                         </li>
 
-                        <li><i className="fas fa-phone mt-4 fa-2x"></i>
+                        <li><a href="tel:8765735974">
+                            <i className="fas fa-phone mt-4 fa-2x"></i>
                             <p>+91 9219 2530 95</p>
+                            </a>
                         </li>
 
-                        <li><i className="fas fa-envelope mt-4 fa-2x"></i>
+                        <li><a href="mailto:harshtripathih321@gmail.com">
+                            <i className="fas fa-envelope mt-4 fa-2x"></i>
                             <p>harshtripathih321@gmail.com</p>
+                            </a>
                         </li>
                     </ul>
                 </div>

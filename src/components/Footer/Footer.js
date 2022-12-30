@@ -64,8 +64,8 @@ export default function Footer() {
                         </ul>
                         <ul className="box">
                             <li className="link_name">Services</li>
-                            <li><a href="#">App design</a></li>
-                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Web App development</a></li>
+                            <li><a href="#">Website development</a></li>
                             <li><a href="#">Logo design</a></li>
                             <li><a href="#">Banner design</a></li>
                         </ul>
