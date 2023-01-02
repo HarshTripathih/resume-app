@@ -1,7 +1,7 @@
 import React from "react"
 import "./Navbar.css";
 import PropTypes from 'prop-types';
-import CV from "../images/CV.pdf";
+import HarshCV from "../images/HarshCV.pdf";
 import Homepage from "./Homepage/Homepage";
 import { HashLink as Link } from "react-router-hash-link";
 import harsh from "../images/harsh.jpg";
@@ -39,7 +39,7 @@ function Navbar() {
                                     <li><a className="dropdown-item" href="/experiences">Experiences</a></li>
                                     <li><a className="dropdown-item" href="/projects">Projects</a></li>
                                     <li><hr className="dropdown-divider" />Download Resume</li>
-                                    <li><a className="dropdown-item" href={CV} download={CV}>Download Me <i class="fa fa-download"></i></a></li>
+                                    <li><a className="dropdown-item" href={HarshCV} download={HarshCV}>Download Me <i class="fa fa-download"></i></a></li>
                                 </ul>
                             </li>
                         </ul>
